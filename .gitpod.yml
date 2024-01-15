@@ -1,7 +1,7 @@
 image: gitpod/workspace-full
 
 tasks:
-  - before: sdk install env
+  - before: sdk env install
     init: brew tap auth0/auth0-cli && brew install auth0
     command: brew install httpie
 
